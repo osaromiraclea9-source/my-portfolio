@@ -5,31 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
-    <header>
-        <nav >
-            <img src="./images/logo.jpeg" alt="My Logo" class="logo">
-           <ul class="nav-links"> 
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li> <a href="#Skills">Skills</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#Contact">Contact</a> </li>
-            </ul>
-            <button><img src="./images/bars-solid.svg" alt="my intro pic"></button>
-
+        <!-- HEADER WITH NAV SECTION -->
+    <header class="header">
+       
+         <img src="./images/logo.jpeg" alt="My Logo" class="logo">
+        <div class="menu">
+            <nav class="nav" >
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                 <a href="#Skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#Contact">Contact</a> 
+            </nav>
             
-        </nav>
+            <button class="btn1"><img src="./images/bars-solid.svg" alt="my intro pic" ></button>
+
+            </div>
+        
     </header >
         <!--HERO SECTION-->
+        <body>
+           
+        
     <section id="Home">
         <article class="n1">
-                 <h1>
+                    <h1>
                      OSARO MIRACLE OLUEBUBE
                     </h1>
 
-               <p>
+                    <p>
                      Aspiring Full-Stack Developer
                     </p> 
                 
@@ -37,13 +44,13 @@
                 
 
                 
-                    <button id="project">
-                    View My  Work
-                    </button>
+                    <a href="#project" class="view">View My Work</a> 
+                    
+                    
                 
         </article>
     </section>
-
+                    <!-- ABOUT ME SECTION  -->
     <section id="About">
         <article class="ab1">
             <h2>
@@ -59,13 +66,14 @@
         </article>
 
     </section>
+                    <!-- MY SKILLS SECTION -->
     <section id="Skills">
         <article class="sk1">
             <h2>
                 MY SKILLS
             </h2>
             <div class="icon">
-            <div> <p>HTML</p>
+                 <div> <p>HTML</p>
                 <img src="./images/html5.svg" alt="HTML">
             </div>
             <div> <P>CSS</P>
@@ -79,7 +87,7 @@
         </article>
 
     </section>
-
+                <!-- MY PROJECT SECTION -->
     <section id="project">
         <article class="pro1">
             <h2>MY PROJECTS</h2>
@@ -120,6 +128,7 @@
         </article>
 
     </section>
+                    <!-- MY CONTACT SECTION -->
     
     <section id="Contact">
         <article class="con1">
@@ -131,29 +140,32 @@
                 Reach me directly via email, or connect with me on linkedin,Twitter and github using the links below.
             </p>
            <div class="social">
-            <a href="osaromiraclea9@gmail.com"><img src="./images/email.svg" alt="email"> </a>
-            <a href="linkedin.com/in/miracle-osaro-08ba391a5"><img src="./images/linkedin.svg" alt="linkdin"></a>
-            <a href="https://github.com/osaromiraclea9-source"><img src="./images/github.svg" alt="github"></a>
+                <a href="osaromiraclea9@gmail.com"><img src="./images/email.svg" alt="email"> </a>
+                 <a href="linkedin.com/in/miracle-osaro-08ba391a5"><img src="./images/linkedin.svg" alt="linkdin"></a>
+                 <a href="https://github.com/osaromiraclea9-source"><img src="./images/github.svg" alt="github"></a>
             
 
-            <form class="input">
-                 <label for="Fullname">Fullname:</label>
-            <input type="text" placeholder="Enter Your Fullname" id="Fullname">
+                <form class="input">
+                     <label for="Fullname">Fullname:</label>
+                        <input type="text" placeholder="Enter Your Fullname" id="Fullname">
             
 
-            <label for="Email">Email:</label>
-            <input type="email" placeholder="johndoe@example.com" id="Email" >
+                        <label for="Email">Email:</label>
+                     <input type="email" placeholder="johndoe@example.com" id="Email" >
            
-            <label for="message">Message: </label>
-            <textarea name="message" id="message" rows="5"></textarea>
+                     <label for="message">Message: </label>
+                        <textarea name="message" id="message" rows="5"></textarea>
             
-            <button type="button" class="btn2">Sumbit</button>
-            </form>
+                    <button type="button" class="btn2">Sumbit</button>
+                </form>
             </div>
 
         </article>
 
     </section>
+    </body>
+
+                <!-- FOOTER -->
 <footer class="footer">
     <p>
         &copy;Osaro Miracle 2026. All rights reserved
